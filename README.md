@@ -275,6 +275,7 @@ leds[4] = ~heartbeat;        // Blinks continuously
 - USB Blaster JTAG programmer
 - Cyclone IV EP4CE22C8 FPGA board
 - Linux/WSL environment (Ubuntu 18.04+)
+- VirtualBox with Ubuntu 20.04( Recommended)
 
 ### Installation
 
