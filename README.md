@@ -493,6 +493,15 @@ See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for detailed solutions.
 
 [UART Hardware Demo](https://github.com/Badrinath007/UART-Command-Data-System-V2-Hardware-implementation/raw/main/Assets/UART_Demo.mp4)
 
+
+![Altera_USB_Blaster](https://github.com/user-attachments/assets/b25c4de1-855b-4b34-b705-e33f35fae76e)
+
+
+![Cyclone_iv](https://github.com/user-attachments/assets/58547907-aa26-44f6-a024-fe5cefebbecc)
+
+
+![Cyclone_iv_fpga](https://github.com/user-attachments/assets/7a3dc232-6e5d-4f7a-a2c3-fefde0f19edd)
+
 ---
 
 ## 📝 License
