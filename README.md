@@ -129,28 +129,14 @@ UART-Command-Data-System-V2/
 │   ├── uart_rx.v                     # UART receiver with oversampling
 │   ├── uart_tx_fixed.v               # UART transmitter
 │   ├── uart_top_with_fifo.v          # Top module with FSM + debug
-│   ├── uart_fifo_project.qpf         # Quartus project file
-│   ├── uart_fifo_project.qsf         # Project settings & pin assignments
-│   └── output_files/
-│       ├── uart_fifo_project.sof     # SRAM bitstream
-│       └── uart.rbf                  # Raw binary format (for openFPGALoader)
 ├── docs/                              # Documentation
 │   ├── PROTOCOL.md                   # Protocol specification
 │   ├── LED_DEBUG_GUIDE.md           # LED display modes explained
 │   ├── PINOUT.md                    # Detailed pin assignments
-│   └── TROUBLESHOOTING.md           # Common issues & solutions
-├── images/                            # Hardware photos
-│   ├── board_overview.jpg
-│   ├── led_demonstration.jpg
-│   └── jtag_connection.jpg
-├── videos/                            # Demo videos
-│   ├── led_blinking_demo.mp4
-│   ├── protocol_test.mp4
-│   └── loopback_test.mp4
+│   └── TROUBLESHOOTING.md           # Common issues & solution
 └── tools/                             # Helper scripts
     ├── compile.sh                    # One-command compilation
     ├── program.sh                    # One-command programming
-    └── verify_pinout.sh              # Pin assignment verification
 ```
 
 ---
@@ -459,18 +445,6 @@ $ openFPGALoader -c usb-blaster uart.rbf
 ```
 
 See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for detailed solutions.
-
----
-
-## 🚧 Future Enhancements
-
-- [ ] Add 7-segment display decoder for numeric readout
-- [ ] Implement multiple UART channels (parallel RX/TX)
-- [ ] Add I²C/SPI protocol support
-- [ ] Wireless connectivity (Bluetooth module integration)
-- [ ] SD card logging of UART traffic
-- [ ] Web dashboard for remote monitoring
-- [ ] Automated test suite with Python
 
 ---
 
