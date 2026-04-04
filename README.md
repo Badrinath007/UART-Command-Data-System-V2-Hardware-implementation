@@ -489,6 +489,12 @@ See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for detailed solutions.
 
 ---
 
+# Demo
+
+[UART Hardware Demo](https://github.com/Badrinath007/UART-Command-Data-System-V2-Hardware-implementation/raw/main/Assets/UART_Demo.mp4)
+
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
