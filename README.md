@@ -91,27 +91,18 @@ ST_IDLE (process or error)
 ```
 Cyclone IV EP4CE22C8N (Terasic DE-SoC or similar)
 ├── Clock (50MHz)
-│   └── PIN_23 (on-board oscillator)
+│   └── PIN_25 (on-board oscillator)
 ├── Reset
 │   └── PIN_28 (on-board reset button)
 ├── UART Interface
-│   ├── RX: PIN_127
-│   └── TX: PIN_46
+│   ├── RX: PIN_23
+│   └── TX: PIN_10
 └── Status LEDs (5x)
     ├── LED[0]: PIN_1
     ├── LED[1]: PIN_2
     ├── LED[2]: PIN_3
     ├── LED[3]: PIN_7
     └── LED[4]: PIN_11
-```
-
-### LED Wiring
-```
-┌──────────────┐
-│  FPGA Pin    │
-│  (e.g. PIN1) ├──[ 220Ω ]──┬── LED Anode (long leg)
-│              │             └── GND (Cathode)
-└──────────────┘
 ```
 
 **Note:** LEDs are **active-low** (GND = ON, 3.3V = OFF)
@@ -353,7 +344,7 @@ Expected Response:
 ✅ LED[4] continues heartbeat
 ```
 
-### Python Test Script
+### Python Test Script [Optional- can use if required]
 
 ```python
 import serial
@@ -507,5 +498,5 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-**Last Updated:** 2026-03-29  
+**Last Updated:** 2026-04-22  
 **Status:** ✅ Fully Functional | ✅ Tested on Hardware | ✅ Production Ready
